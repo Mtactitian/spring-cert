@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: alexb
+    password: c56810584
+    url: jdbc:postgresql://127.0.0.1:5432/postgres
+  jpa:
+    properties.hibernate.dialect:org.hibernate.dialect: PostgreSQL95Dialect
+    properties.hibernate.jdbc.lob.non_contextual_creation: true
